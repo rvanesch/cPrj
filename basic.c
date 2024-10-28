@@ -14,6 +14,11 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
+    if(bubbleSort(argc, argv)) {
+        return 1;
+    }
+
+
     int i;                          // Initialize an integer variable named 'i'.
     for (i = 0; i < argc; i++) {    // Loop through each argument in the command-line arguments array.
         printf("%s ", argv[i]);     // Print each command-line argument followed by a space character.
