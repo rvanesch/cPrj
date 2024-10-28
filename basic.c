@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 
 int check_numbers(int n, char **strings);
 int bubbleSort(int *arr, int n);
@@ -55,5 +56,5 @@ int bubbleSort(int *arr, int n) { // Function declaration
         }
     }
     // The function returns the sorted array.
-    return arr;
+    return 0;
 }
