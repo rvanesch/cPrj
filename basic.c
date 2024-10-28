@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int check_numbers(int n, char **strings);
+int bubbleSort(int *arr, int n);
+
 // Define a function that takes two parameters: an integer and a pointer to a character array.
 int main(int argc, char *argv[]) {
     // Print a greeting message to the console.
